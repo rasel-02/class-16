@@ -1,0 +1,403 @@
+/* common sectin css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #521262;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w_3{
+    width: calc(100% / 3 - 90px);
+}
+.continer{
+    width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* comon section css End  */
+
+/* hedaer section css staet  */
+#hedar{
+    background-color: #ffff;
+    border-radius:10px ;
+}
+#hedar .row{
+    align-items: center;
+    justify-content: space-between;
+}
+#hedar .row a{  
+    font-size: 22px;
+    font-weight: 400;
+    color: #521262;
+    padding:15px ;
+    display: inline-block;
+    transition: .8s;
+}
+#hedar .row a:hover{
+    background-color: #E56F8C;
+    border-radius: 5px;
+}
+#hedar .menu .rasel{
+    margin-right: 60px;
+}
+/* hedaer section css End  */
+
+/* bannner section css start  */
+#banner{
+    background-size: cover;
+    height: 759px;
+    background-image: url(../img/banner\ img.jpg);
+}
+#banner p{
+    font-size: 30px;
+    font-weight: 600;
+    top: 350px;
+    width: 502px;
+    color: #ffff;
+    position: absolute;
+}
+/* banneer section css End  */
+
+/* namber section css start  */
+#namber .namber_continer{
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 300px;
+    transform: translateY(-50%);
+    background-color: rgba(235, 8, 64, 1);
+}
+#namber .namber_box{
+    color: #ffff;
+    padding: 20px 70px ;
+    text-align: center;
+}
+#namber .namber_box h5{
+    font-weight: 600;
+    font-size: 36px;
+}
+#namber .namber_box p{
+    font-weight: 400;
+    font-size: 18px;
+}
+/* namber section css End  */
+
+/* Tron section css start  */
+#Tron h2{
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 200px;
+    color: #ffff;
+    padding-bottom: 50px;
+}
+#Tron .Tron_box {
+    align-items: center;
+    justify-content: space-between;
+}
+#Tron .Tron_item{
+    text-align: center;
+    margin-right: 50px;
+    padding: 30px 45px;
+    border-radius: 10px;
+    color: #ffff;
+    height: 250px;
+    width: calc(100% / 3 - 90px); 
+    background-color: rgba(235, 8, 64, 1);
+}
+#Tron .Tron_item h5{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+#Tron .Tron_item h6{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+/* Tron section css sectin End */
+
+/* Statistics css seection Start  */
+
+#Statistics .continer h2{
+    font-weight: 600;
+    font-size: 56px;
+    color: #ffff;
+    text-align: center;
+    padding: 100px;
+}
+#Statistics .Statistics_box{
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.836);
+}
+#Statistics .Statistics_item{
+    padding: 52px;
+    padding-bottom: 0px;
+    color: #ffff;
+    width: calc(100% / 3);
+}
+#Statistics .Statistics_item h4{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#Statistics .Statistics_item p{
+    font-weight: 400;
+    font-size: 15px;
+}
+#Statistics .img img{
+    height: 400px;
+}
+#Statistics .Statistics_item_info{
+    padding: 52px;
+    padding-bottom: 0px;
+    color: #ffff;
+    text-align: right;
+    width: calc(100% / 3);
+}
+#Statistics .Statistics_item_info h4{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#Statistics .Statistics_item_info p{
+    font-weight: 400;
+    font-size: 15px;
+}
+#Statistics .Statistics_lest{
+    text-align: center;
+    color: #ffff;
+    padding: 50px;
+
+}
+#Statistics .Statistics_lest h3{
+    font-weight: 600;
+    font-size: 36px;
+}
+#Statistics .Statistics_lest p{
+    font-weight: 400;
+    font-size: 10px;
+}
+/* Statistics css seection End */
+
+/* USDT section css start */
+#usdt{
+    padding-bottom: 50px;
+}
+#usdt h3{
+    font-weight: 600;
+    font-size: 46px;
+    color: #ffff;
+    padding: 50px;
+    text-align: center;
+}
+#usdt .usdt_box{
+    justify-content: space-between;
+}
+#usdt .usdt_box .usdt_item {
+    padding-bottom: 20px;
+    width: 350px;
+    color: #ffff;
+    border-radius: 15px;
+    text-align: center;
+    background-color:rgba(235, 8, 64, 1);
+}
+#usdt .usdt_box .usdt_item h4{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px;
+}
+#usdt .usdt_box .usdt_item h6{
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 10px;
+}
+#usdt .usdt_box .usdt_item p{
+    font-weight: 600;
+    font-size: 10px;
+}
+/* USDT section css End  */
+
+/* tatistics section css star  */
+#Statistics .Statistics_box{
+    justify-content: space-between;
+    height: 380px;
+    background-size: 100%;
+    background-image: url(../img/box.png);
+}
+#Statistics  .box_item{
+    margin-top: 70px;
+    margin-left:150px;
+    width: 33.33%;
+    color: #ffff;
+    text-align: center;
+    text-align: left;
+}
+#Statistics  .box_item h5{
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 30px;
+}
+#Statistics  .box_item p{
+    font-weight: 400;
+    font-size: 10px;
+}
+#Statistics  .box_item_info{
+    margin-top: 70px;
+    margin-right:150px;
+    width: 33.33%;
+    color: #ffff;
+    text-align: center;
+    text-align: right;
+}
+#Statistics  .box_item_info h5{
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 30px;
+}
+#Statistics  .box_item_info p{
+    font-weight: 400;
+    font-size: 10px;
+}
+/* tatistics section css End */
+
+/* Last 10 Deposits section css start */
+#Deposits .Deposits table{
+    width: calc(100% / 2 - 100px);
+}
+#Deposits  h4{
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+    padding: 80px;
+    padding-bottom: 100px;
+} 
+#Deposits .Deposits .fast{
+    margin-right: 100px;
+    margin-left: auto;
+}
+#Deposits .Deposits  table{
+    margin-left: auto;
+}
+#Deposits .row{
+    justify-content: space-between;
+}
+#Deposits .Deposits td{
+    color: #FFFFFF;
+}
+/* Last 10 Deposits section css End */
+
+/* Global Partners section css start  */
+#global .global h3{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+#global .img{
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#global .img .img_1 img{
+    width: 300px;
+}
+#global .img .img_2 img{
+    width: 450px;
+}
+/* Global Partners section css End  */
+
+/* Payment Methods section css start  */
+#payment .payment h3{
+    font-size: 50px;
+    text-align: center;
+    color: #6FE7DD;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+#payment .row{
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+#payment .img .img_1 img{
+    width: 250px;
+}
+#payment .img .img_2 img{
+    width: 230px;
+    margin-right: 200px;
+}
+#payment .img .img_3 img{
+    width: 100px;
+    margin-right: 220px;
+}
+/* Payment Methods section css End */
+
+/* FAQs section css start  */
+#FAQs h3{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    text-align: center;
+    color: #6FE7DD;
+    padding: 100px;
+}
+#FAQs .FAQs_box{
+    width: 50%;
+    padding-bottom: 50px;
+}
+#FAQs .FAQs_item{
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+#FAQs .FAQs_item h4{
+    font-weight: 500;
+    font-size: 22px;
+    color: #521262;
+}
+#FAQs .FAQs_item p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #6639A6;
+}
+/* FAQs section css End  */
+
+/* last section css start  */
+#last{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+#last .last_logo img{
+    display: block;
+    margin: auto;
+    width: 173px;
+    padding-top: 100px;
+}
+#last .menu {
+    margin-left: 360px;
+}
+#last .menu ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #521262;
+    padding: 20px;
+    display: inline-block;
+    font-family: 'Inter';
+}
+/* last section css end  */
